@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora de Dano - RPG</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="index.js"></script>
+    </head>
+    <body onload="iniciar()">
+        <div class="calculadora-dano">
+            <div class="linha-container">
+                <h1 class="titulo pula-linha">Calculadora de Dano</h1>
+            </div>
+
+            <div class="linha-container">
+                <h2>Selecione um personagem</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento personagem" id="Seiya de Pégasus">
+                    <img src="https://static.wikia.nocookie.net/ssu/images/a/ac/Seiya_AD_GB_card_2.png/revision/latest?cb=20181003024826" alt="Seiya de Pégasus" width="200" height="200" />
+                    <p>Seiya de Pégasus</p>
+                </div>
+                <div class="elemento personagem" id="Shiryu de Dragão">
+                    <img
+                        src="http://pm1.narvii.com/6399/96fdb9d4fe6a9e72b9bc60ad418e3c43795e53b4_00.jpg"
+                        alt="Shiryu de Dragão"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Shiryu de Dragão</p>
+                </div>
+                <div class="elemento personagem" id="Hyoga de Cisne">
+                    <img
+                        src="https://static.wikia.nocookie.net/ssu/images/f/f6/1957.jpg/revision/latest?cb=20200424230926"
+                        alt="Hyoga de Cisne"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Hyoga de Cisne</p>
+                </div>
+            </div>
+            <div class="elemento personagem" id="Shun de Andrômeda">
+                <img
+                    src="http://pm1.narvii.com/6400/90c7cd9876b49a5e3095f5edfa54a16287092f15_00.jpg"
+                    alt="Shun de Andrômeda"
+                    width="200"
+                    height="200"
+                />
+                <p>Shun de Andrômeda</p>
+            </div>
+            <div class="elemento personagem" id="Ikki de Fênis">
+            <img
+                src="https://static.wikia.nocookie.net/ssu/images/0/0d/1150.jpg/revision/latest?cb=20200424231744"
+                alt="Ikki de Fênis"
+                width="200"
+                height="200"
+            />
+            <p>Ikki de Fênis</p>
+            </div>
+        </div>
+        <div class="linha-container">
+                <h2>Selecione uma arma</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento golpe" id="meteoro de pegasus">
+                    <img
+                        src="https://pa1.narvii.com/6508/34dc19ee4e7dd2199768ff76b17f01e13a36e06b_hq.gif"
+                        alt="Meteoro de Pegasus"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Meteoro de Pegasus</p>
+                </div>
+                <div class="elemento golpe" id="colera do dragão">
+                    <img
+                        src="https://i.pinimg.com/originals/a2/65/b3/a265b39e9c7d4692fd30777399da912e.gif"
+                        alt="Colera do Dragão"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Colera do Dragão</p>
+                </div>
+                <div class="elemento golpe" id="po de diamante">
+                    <img
+                        src="http://pa1.narvii.com/6544/faa5d8dbec2335eb25743acdf9a0e541d0203611_00.gif"
+                        alt="Pó de Diamante"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Pó de Diamante</p>
+                </div>
+                <div class="elemento golpe" id="corrente de andromeda">
+                    <img
+                        src="http://4.bp.blogspot.com/-lL7Toh3S5ZA/U35N_Qhtw9I/AAAAAAAAHlQ/xOULD40GgHg/s1600/Shun+de+Andr%C3%B4meda+2.gif"
+                        alt="Corrente de Andrômeda"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Corrente de Andrômeda</p>
+                </div>
+                <div class="elemento golpe" id="ave fenix">
+                    <img
+                        src="https://4.bp.blogspot.com/-h7OJYAoLR9g/U35BDWZglmI/AAAAAAAAHhw/bu1rK2VCBYI/s1600/Ikki+10.gif"
+                        alt="Ave Fênix"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Avê Fênix</p>
+                </div>
+                <div class="linha-container">
+                <button id="calcular" type="button">Calcular Dano</button>
+                </div>
+                <div class="linha-container">
+                <span id="dano"></span>
+            </div>
+        </div>
+    </body>
+</html>
